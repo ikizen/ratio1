@@ -108,6 +108,7 @@
 
 .section-bg-3 {
     margin-top: 9.375rem;
+    margin-bottom: 9.375rem;
 }
 .section-3-title {
     padding: 0 15.75rem;
@@ -158,8 +159,25 @@
     font-size: 1rem;
     line-height: 160%;
     color: #4B5D68;
+    height: 175px;
 }
-
+.card-text-container a {
+    font-family: 'AvenirBlack', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 160%;    
+    letter-spacing: 0.005em;
+    color: #212353;
+}
+.learnmore:hover {
+    color: #212353;
+}
+.arrows::before {
+    vertical-align: -0.34em !important;
+    padding-left: 2rem;
+    color: #9C69E2;
+    font-size: 2rem;
+}
 .card-2-container {
     background: url("../module1/img/card-2-bg.svg");
 }
@@ -170,6 +188,87 @@
     background: url("../module1/img/card-4-bg.svg");
 }
 
+/* Section 4 */
+
+.section-bg-4 {
+    background: #9C69E2;
+    border-radius: 3.125rem;
+    margin-bottom: 9.375rem;
+}
+.section-4-container {
+    padding-left: 5.875rem;
+    padding-top: 6.875rem;
+    padding-bottom: 29.375rem;
+}
+.section-4-text {
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 130%;
+    color: #FFFFFF;
+    padding-bottom: 5.5rem;
+}
+.slide-container {
+    position: absolute !important;
+}
+.slide-1 {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+    border-radius: 20px;
+    padding-top: 3.75rem;
+    padding-left: 4.375rem;
+    max-width: 40.3125rem;
+    min-height: 20.625rem;
+}
+.arrows {
+    position: unset !important;
+}
+.arrows-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 3rem;
+
+}
+.splide__pagination {
+    justify-content: flex-start !important;
+}
+.slide-1-text {
+    padding-left: 1.875rem;
+    padding-right: 4.375rem;
+    padding-bottom: 3.125rem;
+}
+.slide-1-text h1 {
+    font-family: 'AvenirBlack', sans-serif;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 160%;
+    letter-spacing: 0.005em;
+    color: #212353;
+}
+.slide-1-text a {
+    font-family: 'AvenirBlack', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    color: #9C69E2;
+}
+.slide-1-text {
+    font-family: 'AvenirBlack', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    color: #4B5D68;
+}
+
+
+
+
+
+
+
+/* MEDIA QUERY */
 /* Small desktop section style */
 @media only screen and (max-width: 1401px) {
     /* Section 1 */

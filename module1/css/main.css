@@ -1,1 +1,285 @@
+@font-face {
+    font-family: "AvenirBlack";
+    src: url("../fonts/AvenirLTStd-Black.otf") format("otf");
+}
+@font-face {
+    font-family: "AvenirBook";
+    src: url("../fonts/AvenirLTStd-Book.otf") format("otf");
+}
+@font-face {
+    font-family: "AvenirRoman";
+    src: url("../fonts/AvenirLTStd-Roman.otf") format("otf");
+}
+/* Navbar style */
+.navbar {
+    padding: 4.5rem 1rem!important;
+}
+.navbar-brand {
+    margin-right: 7.5rem!important;
+}
+.nav-item {
+    margin-right: 2rem!important;
+}
+.nav-item:last-child {
+    margin-right: 0!important;
+}
+.active .nav-link {
+    color: #212353!important;
+    font-weight: 800;
+    font-size: 1rem;
+    line-height: 160%;
+}
+.nav-link {
+    font-family: "AvenirRoman", sans-serif;
+}
+.nav-link:hover {
+    color: #212353!important;
+}
 
+/* Section one */
+
+.section-bg {
+    padding-top: 4.5rem;
+    padding-bottom: 10rem;
+    background-image: url("../module1/img/section-1-img.svg");
+    background-repeat: no-repeat;
+    background-position: 90% bottom;
+}
+.section-text-container h1 {
+    color: #212353;
+    font-family: "AvenirBlack", sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 110%;
+    margin-bottom: 3.125rem;
+    width: 75%;
+}
+.section-text-container p {
+    color: #4B5D68;
+    font-family: "AvenirBlack", sans-serif;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 160%;
+    margin-bottom: 3.125rem;
+    padding: 0;
+}
+.section-text-container a {
+    background-color: #9C69E2;
+    border-radius: 50px;
+    color: #fff;
+    padding: 1rem 2.375rem;
+}
+.section-text-container a:hover {
+    color: #fff;
+    text-decoration: none;
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.3));
+}
+
+ /* Section two */
+
+ .section-bg-2 {
+     background-color: rgba(240, 99, 184, 0.15);
+     border-radius: 50px;
+     margin-top: 5.75rem;
+ }
+ .section-2-text {
+     padding: 7.75rem 5.75rem 7.75rem 0rem;
+ }
+ .section-2-text h1 {
+    color: #212353;
+    font-family: "AvenirRoman", sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 130%;
+    margin-bottom: 2.5rem;
+ }
+ .section-2-text p {
+    color: #4B5D68;
+    font-family: 'AvenirBlack';
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 160%;   
+ }
+ .section-2-img {
+     padding: 2rem 4.5rem 2rem 1rem;
+ }
+
+/* Section three */
+
+.section-bg-3 {
+    margin-top: 9.375rem;
+}
+.section-3-title {
+    padding: 0 15.75rem;
+}
+.section-3-title h1 {
+    color: #212353;
+    font-weight: 700;
+    font-family: 'AvenirRoman', sans-serif;
+    font-size: 2.5rem;
+    line-height: 130%;   
+    padding-bottom: 3.125rem; 
+    
+}
+.section-3-title p {
+    font-family: 'AvenirRoman', sans-serif;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 160%;
+    color: #4B5D68;
+    padding-bottom: 4.375rem;
+}
+.card-main-container {
+    row-gap: 30px;
+    justify-content: space-around;
+}
+.card-container {
+    background: url("../module1/img/card-1-bg.svg");
+    background-repeat: no-repeat !important;
+    background-position: right bottom !important;
+    background-size: contain !important;
+}
+.card-text-container {
+    max-height: 350px;
+    max-width: 260px;
+    padding: 50px 50px 2rem 20px;
+}
+.card-text-container h4 {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 130%;
+    color: #212353;
+    padding-bottom: 1.25rem;
+}
+.card-text-container p {
+    font-family: 'AvenirBlack', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 160%;
+    color: #4B5D68;
+}
+
+.card-2-container {
+    background: url("../module1/img/card-2-bg.svg");
+}
+.card-3-container {
+    background: url("../module1/img/card-3-bg.svg");
+}
+.card-4-container {
+    background: url("../module1/img/card-4-bg.svg");
+}
+
+/* Small desktop section style */
+@media only screen and (max-width: 1401px) {
+    /* Section 1 */
+    .section-bg {
+        background-size: 60% 60%;
+    }
+
+    /* Section 2 */
+    .section-2-text {
+        padding: 1.25rem 0.625rem 0.625rem 0;
+    }
+    .section-2-img {
+        padding-right: 2.8125rem;
+    }
+
+    /* Section 3 */
+    .section-3-title {
+        padding: 0 10rem;
+    }
+
+}
+
+ /* Tablet section style */
+@media only screen and (max-width: 991.98px) { 
+    /* Navbar */
+    .navbarNav {
+        font-size: 2rem !important;
+    }
+
+    /* Section 1 */
+    .section-bg {
+        background-size: 60% 45%!important;
+        padding-top: 0;
+    }
+    .section-text-container h1 {
+        font-size: 3rem!important;
+    }
+
+    /* Section 2 */
+    .section-2-img {
+        padding-right: 1rem;
+        padding-bottom: 0;
+        padding-top: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .section-2-img img {
+        padding-right: 0.875rem;
+    }
+    .section-2-text {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-right: 0;
+    }
+    .section-2-text h1, p {
+        padding: 0 4rem;
+    }
+    .section-2-text p {
+        text-align: justify;
+     }
+
+    /* Seciton 3 */
+    .section-bg-3 {
+        margin-top: 6.25rem;
+    }
+    .section-3-title {
+        padding: 0 2rem;
+    }
+}
+
+/* Small Tablet section style */
+ @media only screen and (max-width: 767.98px) { 
+     /* Section 1 */
+     .section-bg {
+         background-size: 50% 40%!important;
+     }
+
+     /* Section 2 */
+     .section-bg-2 {
+         margin-top: 3rem;
+     }
+     .section-2-text p {
+        text-align: justify;
+     }
+
+  }
+
+ /* Phone section style */
+ @media only screen and (max-width: 575.98px) {
+    /* Section 1 */
+    .section-bg {
+        background-size: 0%!important;
+        padding-top: 0!important;
+        padding-bottom: 6rem!important;
+        
+    } 
+    .section-text-container h1 {
+        font-size: 3rem!important;
+        width: 100%;
+    }
+    .section-text-container p {
+        font-size: 1rem!important;
+
+    }
+    /* img {
+        width: 70%!important;
+        height: 70%!important;
+    } */
+
+    /* Section 2 */
+
+ }
