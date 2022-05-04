@@ -230,9 +230,6 @@
     padding-top: 3rem;
 
 }
-/* .splide__pagination {
-    justify-content: flex-start !important;
-} */
 .slide-1-text {
     padding-left: 1.875rem;
     padding-right: 4.375rem;
@@ -260,6 +257,66 @@
     font-size: 18px;
     line-height: 180%;
     color: #4B5D68;
+}
+
+/* Section 5 */
+.section-bg-5 {
+    margin-bottom: 4.125rem;
+}
+.section-5-logo {
+    padding-bottom: 4.125rem;
+}
+.section-5-logo p {
+    font-family: 'AvenirBlack', sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 160%;
+    color: #212353;
+    justify-content: center;
+    margin: 0;
+    padding-left: 1rem;
+}
+.section-5-text-h1 {
+    font-family: 'AvenirBlack', sans-serif !important;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: #212353;
+    padding-bottom: 0.625rem;
+}
+.section-5-text-h2 {
+    font-family: 'AvenirBlack', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: #212353;
+    padding-bottom: 2.25rem;
+} 
+.section-5-text-p {
+    font-family: 'AvenirBlack', sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: #212353;
+}
+.social-media h4 {
+    font-family: 'AvenirBlack', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 160%;
+    color: #212353;
+}
+.social-media i {
+    font-size: 1rem;
+}
+.circle {
+    font-size: 1rem;
+    background: #212353;
+    opacity: 0.1;
 }
 
 
