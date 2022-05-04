@@ -313,10 +313,9 @@
 .social-media i {
     font-size: 1rem;
 }
-.circle {
-    font-size: 1rem;
-    background: #212353;
-    opacity: 0.1;
+.icon-social-media {
+    font-size: 2.5rem !important;
+    padding-right: 1rem;
 }
 
 
